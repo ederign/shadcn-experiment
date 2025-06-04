@@ -106,7 +106,7 @@ const AppSidebar = () => {
         <SidebarGroup>
           <SidebarGroupLabel>Projects</SidebarGroupLabel>
           <SidebarGroupAction>
-            <SidebarMenuButton>
+            <SidebarMenuButton asChild>
               <Plus />
             </SidebarMenuButton>
           </SidebarGroupAction>
