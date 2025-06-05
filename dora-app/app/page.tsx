@@ -1,6 +1,7 @@
 import AppBarChart from "@/components/AppBarChart";
 import AppCard from "@/components/AppCard";
 import { DatePicker } from "@/components/DataPicker";
+import MyDialog from "@/components/MyDialog";
 import MyTabs from "@/components/Tabs";
 import { TextareaDemo } from "@/components/TextareaDemo";
 import { ToggleGroupDemo } from "@/components/ToggleGroupDemo";
@@ -27,6 +28,12 @@ export default function Home() {
       </div>
       <div className="bg-primary-foreground p-4 rounded-lg">
         <TextareaDemo />
+      </div>
+      <div className="bg-primary-foreground p-4 rounded-lg">
+        <MyDialog />
+      </div>
+      <div className="bg-primary-foreground p-4 rounded-lg">
+        <Button>Button</Button>
       </div>
     </div>
   );
